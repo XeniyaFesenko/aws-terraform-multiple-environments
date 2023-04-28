@@ -6,7 +6,7 @@ locals {
   }
 
   instance_types = {
-    default = "t2.micro"
+    default = "t3a.micro"
     develop = "t3.micro"
     staging = "t3.micro"
   }
